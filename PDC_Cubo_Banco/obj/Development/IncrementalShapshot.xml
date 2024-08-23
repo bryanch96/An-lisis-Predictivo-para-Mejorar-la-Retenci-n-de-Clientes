@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>PDC_Cubo_Banco</Database>
+    <Server>DESKTOP-I3CLI95\SQL2022</Server>
+    <ConnectionString>Data Source=DESKTOP-I3CLI95\SQL2022;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>+oia7r3Zi6AtAEZTsRpemVfuK6k=7/8/2024 23:52:497/8/2024 23:52:49</TimeStamp>
+        <ID>
+          <String>DataSource_PBD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>7NAD+asWI2yeFof+J8oUAi6wzSE=7/8/2024 23:54:177/8/2024 23:54:17</TimeStamp>
+        <ID>
+          <String>DSV_PBD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>g7QZJOwCHUnAQbSXChdDkXfJjL8=7/8/2024 23:58:377/8/2024 23:58:37</TimeStamp>
+        <ID>
+          <String>Dimension Edad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>M7/wGFP5cWgpe7po+/DRmvtloHA=7/8/2024 23:59:567/8/2024 23:59:56</TimeStamp>
+        <ID>
+          <String>Dimension Fuera Del Banco</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fnq/RtDxcrW83v70XjwCGwH3cs4=8/8/2024 00:03:468/8/2024 00:03:46</TimeStamp>
+        <ID>
+          <String>Dimension Genero</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>g3eVNNExOMQR26/ophzF0Z5bq0U=8/8/2024 00:08:088/8/2024 00:05:02</TimeStamp>
+        <ID>
+          <String>Dimension Miembro Activo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BYm2VpKomA3gSW8IcNqR20ZanB8=8/8/2024 00:08:388/8/2024 00:08:38</TimeStamp>
+        <ID>
+          <String>Dimension Rango Saldo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>S4/xlD3kExvDGln9zTYHN/val3g=8/8/2024 00:10:008/8/2024 00:10:00</TimeStamp>
+        <ID>
+          <String>Dimension Tarjeta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mOlJwaHWQwW4odEQR04dnbYN3ws=8/8/2024 02:42:238/8/2024 00:12:40ND7uf+9iNySiEf6HvElTjrLB3Sg=8/8/2024 00:12:418/8/2024 00:12:40</TimeStamp>
+        <ID>
+          <String>CuboBanco</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ZCL0KUmNsx3qCl/bbYkyBSx72jY=7/8/2024 23:43:527/8/2024 23:43:52</TimeStamp>
+      <ID>
+        <String>PDC_Cubo_Banco</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-08-15T02:19:04.606667Z</LastDeployed>
+</DeploymentSnapshot>

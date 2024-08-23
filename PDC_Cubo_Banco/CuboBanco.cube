@@ -1,0 +1,271 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0ca435ef-0efc-459f-91b9-cb57fc83e944" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboBanco</ID>
+  <Name>CuboBanco</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="af878160-9732-4a28-a38b-b40d978f19af">
+      <ID>Dimension Fuera Del Banco</ID>
+      <Name>Dimension Fuera Del Banco</Name>
+      <DimensionID>Dimension Fuera Del Banco</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="df391ac6-9d9f-48f9-8bdf-24056aad2536">
+          <AttributeID>Id Fuera Del Banco</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="def00008-78af-448a-b353-17e28f3c9bfd">
+          <AttributeID>Fuera Del Banco</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b518f43f-dd84-4f22-8e7f-57f631cba197">
+      <ID>Dimension Rango Saldo</ID>
+      <Name>Dimension Rango Saldo</Name>
+      <DimensionID>Dimension Rango Saldo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9896cdd3-0b73-47da-981a-231737af4a3b">
+          <AttributeID>Id Rango Saldo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="707d4d6f-324e-410e-8f3b-f80df8503a6b">
+          <AttributeID>Rango Saldo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="aac9bd41-58d4-4127-b2aa-24b08b5cdd3b">
+      <ID>Dimension Edad</ID>
+      <Name>Dimension Edad</Name>
+      <DimensionID>Dimension Edad</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b4d81a52-d682-4c20-8c14-a6c94415b3b7">
+          <AttributeID>Id Edad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="edd645a2-b8b7-4834-a1d1-e647eb86b56c">
+          <AttributeID>Rango Edad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7ca36840-5bea-4530-a0bd-9c487097865d">
+      <ID>Dimension Genero</ID>
+      <Name>Dimension Genero</Name>
+      <DimensionID>Dimension Genero</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fc81e79d-9b14-466e-8391-02e64084327f">
+          <AttributeID>Id Genero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07b1ecb7-2026-4dad-9754-219b1946c1d5">
+          <AttributeID>Descripcion Genero</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2017bb4b-be0e-48f4-8de3-6340103c99b6">
+      <ID>Dimension Tarjeta</ID>
+      <Name>Dimension Tarjeta</Name>
+      <DimensionID>Dimension Tarjeta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6e3f3445-4669-48c4-a3dd-f572508a6623">
+          <AttributeID>Id Tarjeta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="10064988-bcc4-4c13-9983-e45d606f4f96">
+          <AttributeID>Tarjeta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1fdd2405-c19a-456e-901a-1d620e5ab675">
+      <ID>Dimension Miembro Activo</ID>
+      <Name>Dimension Miembro Activo</Name>
+      <DimensionID>Dimension Miembro Activo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7e666da5-9132-429c-858a-d09dae9e7e0e">
+          <AttributeID>Id Miembro Activo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f48db24d-e75d-4962-aacf-fc1db8ea1e34">
+          <AttributeID>Miembro Activo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9bbb76d1-f890-4e90-8a16-2ab4d6b0a05e">
+      <ID>FAC Banco Datos</ID>
+      <Name>FAC Banco Datos</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3e2f2c1c-98a9-45c6-a392-d302d4e2ea94">
+          <ID>Recuento FAC Banco Datos</ID>
+          <Name>Recuento FAC Banco Datos</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9c7cadc3-8a5f-4bcc-bb8d-1677133b4706">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d70268fe-505e-43d1-937b-7156692ec3f3">
+              <TableID>dbo_FAC_Banco_Datos</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2137644c-4706-4746-b635-eec54bd569ee">
+          <CubeDimensionID>Dimension Fuera Del Banco</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4b92cee3-9be5-41a2-a6c2-a5c570bc02fe">
+              <AttributeID>Id Fuera Del Banco</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3a91c776-0dab-411c-a425-c299c169fe0f">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a379b724-00d5-4af9-8573-4019491e0362">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Fuera_Del_Banco</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c927c348-e617-41fa-a0a0-31978d7aff3c">
+          <CubeDimensionID>Dimension Rango Saldo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b1da4c15-4cff-43bb-9330-8cf20f94ef58">
+              <AttributeID>Id Rango Saldo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9b535fa6-77ba-469d-8ec0-0a5fc8ef4b05">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37da0e2c-023a-465a-aa08-7cbfa4cd9343">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Rango_Saldo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a2ed180b-4803-404e-8f3b-0a87a31ff795">
+          <CubeDimensionID>Dimension Edad</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aa8571f4-5532-4ebc-b98d-1bcfd8ab36fe">
+              <AttributeID>Id Edad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ef8d3593-db9f-4dd4-a513-c4f4ad08fe08">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d4bef71-89f7-492e-affb-1f47c6fb5b7c">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Edad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8802c785-fbd8-4b5b-97e2-e7a1c5600562">
+          <CubeDimensionID>Dimension Genero</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0b6c7d5c-7212-4845-ac97-3f01cbc8e1a9">
+              <AttributeID>Id Genero</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="483aa6b2-f1fa-4c68-80b0-093fc1bf1a27">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8fac538a-4480-4da3-ae82-87133a0194c5">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Genero</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f2f89fcf-4afd-4457-856a-9a11fa231005">
+          <CubeDimensionID>Dimension Tarjeta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1b18e5d1-3343-4cab-a122-9a5801c0fdd1">
+              <AttributeID>Id Tarjeta</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="01ad30e9-485e-4954-a790-a42b3e651b1e">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89605282-d88a-4a73-950e-3f0ce1afab2e">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Tarjeta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="697f0016-d6f5-4baa-919e-06b91834b837">
+          <CubeDimensionID>Dimension Miembro Activo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="00de2556-54f0-4391-b424-b3b4f49cb5ae">
+              <AttributeID>Id Miembro Activo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f0e381f-58c3-4024-ba24-4c674e435ee8">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="096f3900-0745-440d-9cbd-065905b7a5d5">
+                    <TableID>dbo_FAC_Banco_Datos</TableID>
+                    <ColumnID>Id_Miembro_Activo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="828500cb-883e-449c-bc80-d8283e24c5fe">
+    <DataSourceViewID>DSV_PBD</DataSourceViewID>
+  </Source>
+</Cube>
